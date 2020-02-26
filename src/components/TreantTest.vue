@@ -6,8 +6,6 @@
 </template>
 
 <script>
-import Treant from 'treantjs'
-
 export default {
   name: 'TreantTest',
   data () {
@@ -112,8 +110,8 @@ export default {
       }
     }
   },
-  created () {
-    this.treantChart = new Treant(this.simple_chart_config)
+  mounted () {
+    this.treantChart = new window.Treant(this.simple_chart_config)
   }
 }
 </script>

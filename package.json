@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.4",
+    "raphael": "^2.3.0",
+    "treantjs": "^1.0.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {

@@ -1,9 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import 'raphael'
+import Raphael from 'raphael'
 import 'treantjs/Treant.css'
 import 'treantjs/Treant'
+
+window.Raphael = Raphael
 
 Vue.config.productionTip = false
 
